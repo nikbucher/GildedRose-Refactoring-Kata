@@ -22,7 +22,11 @@ class GildedRose {
                     }
                 }
             } else {
-                sub(item);
+                if (true) {
+                    sub(item);
+                } else {
+                    sub(item);
+                }
             }
         }
     }
